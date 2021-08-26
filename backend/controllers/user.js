@@ -108,7 +108,7 @@ const registerAdmin = async (req, res) => {
 
   let existingUser = await User.findOne({ email: req.body.email });
   if (existingUser)
-    return res.status(400).send("The userya es registrado");
+    return res.status(400).send("The user ya es registrado");
 
   let hash = await bcrypt.hash(req.body.password, 10);
 

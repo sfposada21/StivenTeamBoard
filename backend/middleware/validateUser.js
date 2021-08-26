@@ -7,7 +7,7 @@ const user = async (req, res, next) => {
 
   let user = await User.findById(req.user._id);
 
-  if (!user) return res.status(400).send("User without permission");
+  if (!user) return res.status(400).send("Usuario sin permisos");
   next();
 };
 

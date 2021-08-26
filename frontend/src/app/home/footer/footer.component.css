@@ -1,0 +1,8 @@
+.bgFooter{
+    background-color: rgb(25, 50, 71);
+    color: rgb(225, 234, 241);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}

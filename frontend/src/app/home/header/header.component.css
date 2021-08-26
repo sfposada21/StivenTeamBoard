@@ -1,0 +1,13 @@
+.headerSpacer {
+    flex: 1 1 auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .bgHeader {
+    background-color: rgb(25, 50, 71);
+  }
+  
